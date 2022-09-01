@@ -16,11 +16,11 @@ function buyHomelessguy(){
         document.getElementById('clicks').innerHTML = clicks;  //updates the number of cookies for the user
     };
     var nextCost = Math.floor(10 * Math.pow(1.2,homelessguys));       //works out the cost of the next cursor
-    document.getElementById('cursorCost').innerHTML = nextCost;  //updates the cursor cost for the user
+    document.getElementById('homelessguyCost').innerHTML = nextCost;  //updates the cursor cost for the user
 };
 
 window.setInterval(function(){
 	
-	addClick(cursors);
+	addClick(homelessguys);
 	
 }, 1000);
